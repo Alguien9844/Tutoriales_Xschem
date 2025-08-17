@@ -101,5 +101,5 @@ vvss vss 0 0
  
 .end
 "}
-C {/foss/designs/Tutoriales/INV_TUT.sym} 1120 -330 0 0 {name=x1}
+C {/foss/designs/Tutoriales_Xschem/Tutoriales/INV_TUT.sym} 1120 -330 0 0 {name=x1}
 C {ipin.sym} 520 -310 0 0 {name=p6 lab=VSS}
