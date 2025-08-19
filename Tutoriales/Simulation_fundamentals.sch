@@ -40,7 +40,7 @@ value=".param corner=0
 .lib cornerCAP.lib cap_typ
 .endif
 "}
-C {devices/code.sym} 600 -180 0 0 {name=Script_Base only_toplevel=false spice_ignore = false
+C {devices/code.sym} 640 -180 0 0 {name=Script_Base only_toplevel=false spice_ignore = false
 *Spice_ignore is usefull when creating two separate scripts for the same schematic.
 
 value="

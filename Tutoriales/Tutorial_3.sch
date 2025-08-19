@@ -110,7 +110,7 @@ N 20 190 30 190 {lab=OUT}
 N -130 190 -120 190 {lab=IN}
 N -60 230 -60 300 {lab=VSS}
 N -60 80 -60 150 {lab=VDD}
-C {devices/code.sym} -310 370 0 0 {name=TRANSIENT only_toplevel=false spice_ignore = true
+C {devices/code.sym} -310 370 0 0 {name=TRANSIENT only_toplevel=false spice_ignore = false
 value="
 
 vvdd vdd 0 dc 1.8
@@ -149,7 +149,7 @@ plot vdb(OUT)
  
 .end
 "}
-C {devices/code.sym} -550 370 0 0 {name=DC only_toplevel=false spice_ignore = false
+C {devices/code.sym} -550 370 0 0 {name=DC only_toplevel=false spice_ignore = true
 value="
 
 vvdd vdd 0 dc 1.8
